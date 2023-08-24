@@ -1,0 +1,540 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.logo-navbar
+{
+    width: 100%;
+    height: 90px;
+}
+.logo-navbar>.container
+{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.logo-navbar>.container>.row
+{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.logo-navbar>.container>.row>.logo
+{
+    width: 10%;
+    padding: 13px;
+}
+.logo-navbar>.container>.row>.content
+{
+    width: 80%;
+}
+.logo-navbar>.container>.row>.content>.main-nav>.ulist
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-navbar>.container>.row>.content>.main-nav>.ulist>.list
+{
+    padding: 25px;
+    margin: 0 auto;
+}
+.nav-item
+{
+    padding-left: 7px;
+}
+.nav-link
+{
+    color: #7c859a !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+.cards
+{
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    /* border: 2px solid black; */
+}
+.cards>.sub-cards
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    height: 600px;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+}
+.container1 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.team-name {
+    padding: 5px;
+}
+
+.team-name h1 {
+    /* margin: 0; */
+    font-size: 12px;
+    padding-top: 6px;
+}
+.tablediv>table>thead
+{
+    background-color: #fd1e50 !important ;
+    color: white !important ;
+}
+.cards>.sub-cards1
+{
+    width: 85%;
+    height: 600px;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+}
+.cards>.sub-cards2
+{
+    width: 85%;
+    height: 400px;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards>.sub-cards2>.vid1
+{
+    background: url(../assets/images/vid-01.jpg);
+}
+.cards>.sub-cards2>.vid1:hover .sub-hover>a
+{
+    color: #fd1e50;
+}
+.cards>.sub-cards2>.vid1:hover
+{
+    transform: scale(1.05);
+}
+.cards>.sub-cards2>.vid2
+{
+    background: url(../assets/images/vid-02.jpg);
+}
+.cards>.sub-cards2>.vid2:hover .sub-hover>a
+{
+    color: #fd1e50;
+}
+.cards>.sub-cards2>.vid2:hover
+{
+    
+    transform: scale(1.05);
+    background-color: #7c859aa4;
+}
+.cards>.sub-cards2>.vid3
+{
+    background: url(../assets/images/vid-03.jpg);
+}
+.cards>.sub-cards2>.vid3:hover .sub-hover>a
+{
+    color: #fd1e50;
+}
+.cards>.sub-cards2>.vid3:hover
+{
+    
+    transform: scale(1.05);
+}
+.cards>.sub-cards2>.hover>.sub-hover>:hover
+{
+    color: #fd1e50;
+}
+.cards>.sub-cards3
+{
+    width: 85%;
+    height: 600px;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+}
+.col>.card>.card-body>button:hover::after
+{
+    background-color: #fd1e50!important;
+    color: white!important;
+}
+.cards1{
+    width: 100%;
+    height: 440.8px;
+    /* border: 1px solid red; */
+    background-color: #171e36;
+}
+.cards1>.sub-cards5
+{
+    width: 85%;
+    height: 440.8px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+.cards1>.sub-cards5>.part1
+{
+    width: 100%;
+    height: 395.8px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.cards1>.sub-cards5>.part1>.sub-part1
+{
+    height: 384px;
+    width: 225px;
+    /* border: 1px solid black; */
+}
+.cards1>.sub-cards5>.part1>.sub-part1>.content>.address
+{
+    width: 225px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards1>.sub-cards5>.part1>.sub-part2
+{
+    height: 395.8px;
+    width: 225px;
+    /* border: 1px solid black; */
+}
+.cards1>.sub-cards5>.part1>.sub-part2>ul
+{
+    list-style-type: none;
+}
+.cards1>.sub-cards5>.part1>.sub-part2>ul>li
+{
+    padding-top: 10px;
+    margin-left: -10px;
+}
+.cards1>.sub-cards5>.part1>.sub-part2>ul>li>a
+{
+    font-size: 13px;
+}
+.cards1>.sub-cards5>.part1>.sub-part2>ul>li>i
+{
+    font-size: 13px;
+}
+.cards1>.sub-cards5>.part1>.sub-part3
+{
+    height: 370.8px;
+    width: 255px;
+    /* border: 1px solid black; */
+}
+.cards1>.sub-cards5>.part1>.sub-part4
+{
+    height: 382.8px;
+    width: 255px;
+    /* border: 1px solid black; */
+}
+.cards1>.sub-cards5>.part2
+{
+    border-top: 0.1px solid #99a1b4;
+    width: 100%;
+    height: 44px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards1>.sub-cards5>.part2>.div1
+{
+    width: 50%;
+    /* border: 1px solid black; */
+    height: 100%;
+}
+.cards1>.sub-cards5>.part2>.div1>p
+{
+    color: #99a1b4;
+    font-size: 14px;
+    padding: 10px;
+}
+.cards1>.sub-cards5>.part2>.div2
+{
+    width: 50%;
+    height: 100%;
+}
+.cards1>.sub-cards5>.part2>.div2>ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.cards1>.sub-cards5>.part2>.div2>ul>li{
+    list-style-type:none;
+}
+.cards1>.sub-cards5>.part2>.div2>ul>li>a{
+    text-decoration: none;
+    color: #99a1b4;
+    font-size: 14px;
+}
+
+    .cards1>.sub-cards5>.part2>.div2>ul>li>a:hover{
+        color: white;
+    
+}
+.cards2
+{
+    width: 100%;
+    height: 386.39px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cards2>.sub-cards6
+{
+    width: 85%;
+    height: 386.39px;
+    /* border: 1px solid red; */
+    display: block;
+   
+}
+.cards2>.sub-cards6>.cpart1
+{
+    width: 100%;
+    height: 42px;
+    display: flex;
+}
+.cards2>.sub-cards6>.cpart2
+{
+    /* border:1px solid red; */
+    width: 100%;
+    height: 343.39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards2>.sub-cards6>.cpart2>.content1
+{
+    /* border:1px solid red; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.cards2>.sub-cards6>.cpart2>.content1>.sub-content1
+{
+    background: url(../assets/images/squadgallery-1.jpg);
+    height: 100%;
+    width:25%;
+    /* border:1px solid red; */
+}
+.cards2>.sub-cards6>.cpart2>.content1>.sub-content1:hover
+{
+    transform: scale(1.1);
+}
+.cards2>.sub-cards6>.cpart2>.content1>.sub-content2
+{
+    background: url(../assets/images/squadgallery-2.jpg);
+    height: 100%;
+    width:25%;
+    /* border:1px solid red; */
+    transform: scale(1.1);
+}
+
+.cards2>.sub-cards6>.cpart2>.content1>.sub-content3
+{
+    background: url(../assets/images/squadgallery-3.jpg);
+    height: 100%;
+    width:25%;
+    /* border:1px solid red; */
+}
+.cards2>.sub-cards6>.cpart2>.content1>.sub-content3:hover
+{
+    transform: scale(1.1);
+}
+.cards2>.sub-cards6>.cpart2>.content1>.sub-content4
+{
+    background: url(../assets/images/squadgallery-4.jpg);
+    height: 100%;
+    width:25%;
+    /* border:1px solid red; */
+}
+.cards2>.sub-cards6>.cpart2>.content1>.sub-content4:hover
+{
+    transform: scale(1.1);
+}
+.cards2>.sub-cards6>.cpart1>.title1
+{
+    width: 50%;
+    height: 42px;
+    /* border: 1px solid red; */
+}
+.cards2>.sub-cards6>.cpart1>.title2
+{
+    width: 50%;
+    height: 42px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cards2>.sub-cards6>.cpart1>.title2>button
+{
+    height: 42px;
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: #fd1e50 1px solid;
+    background-color: #fff;
+    color: #fd1e50;
+    border-radius: 5px;
+}
+.cards2>.sub-cards6>.cpart1>.title2>button:hover
+{
+    background-color: #fd1e50;
+    color: #fff;
+}
+.container1>.schedule>.match
+{
+    display: flex;
+    width: 100%;
+    height: 140px;
+    /* border: 1px solid red; */
+}
+.container1>.schedule>.match>.team1
+{
+    width: 33.33%;
+    height: 140px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1>.schedule>.match>.team1>div
+{
+    height: 80px;
+    width: 80px;
+
+}
+.container1>.schedule>.match>.team1>div>img{
+    height: 80px;
+    width: 90px;
+    
+}
+.container1>.schedule>.match>.team1>div>h3
+{
+    font-size: 15px;color: #fff;
+    padding-left: 3px;
+}
+.container1>.schedule>.match>.team3>div
+{
+    height: 80px;
+    width: 80px;
+
+}
+.container1>.schedule>.match>.team3>div>img{
+    height: 80px;
+    width: 90px;
+    
+}
+.container1>.schedule>.match>.team3>div>h3{
+    font-size: 15px;color: #fff;
+    padding-left: 22px;
+}
+.container1>.schedule>.match>.team2
+{
+    width: 33.33%;
+    height: 140px;
+    /* border: 1px solid red; */
+}
+.container1>.schedule>.match>.team2>p{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+.container1>.schedule>.match>.team2>.p1{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    border: 1px solid #fff;
+}
+
+.container1>.schedule>.match>.team3
+{
+    width: 33.33%;
+    height: 140px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1>.schedule>.ticket
+{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #7c859a;
+    /* border: 1px solid red; */
+}
+.container1>.schedule>.ticket>.sub-ticket1
+{
+    width: 50%;
+    height: 40px;
+    border-right: 1px solid #7c859a;
+    /* border: 1px solid red; */
+}
+.container1>.schedule>.ticket>.sub-ticket1>p{
+    font-size: 13px;
+    color: #7c859a;
+    text-align: center;
+    padding: 7px;
+}
+.container1>.schedule>.ticket>.sub-ticket1:hover
+{
+    background-color: #fd1e50;
+}
+.container1>.schedule>.ticket>.sub-ticket1:hover p
+{
+    color: #fff;
+}
+.container1>.schedule>.ticket>.sub-ticket1:hover h4
+{
+    color: #fff;
+}
+.container1>.schedule>.ticket>.sub-ticket2:hover p
+{
+    color: #fff;
+}
+.container1>.schedule>.ticket>.sub-ticket2:hover h4
+{
+    color: #fff;
+}
+.container1>.schedule>.ticket>.sub-ticket2:hover
+{
+    background-color: #fd1e50;
+}
+.container1>.schedule>.ticket>.sub-ticket2>h4
+{
+    font-weight: 800;
+    font-size: 14px;
+    color: #7c859a;
+    text-align: center;
+    padding:8px;
+}
+.container1>.schedule>.ticket>.sub-ticket2
+{
+    width: 50%;
+    height: 40px;
+    /* border: 1px solid red; */
+}
+.container1>.schedule
+{
+    background: linear-gradient(to bottom, rgba(53,61,84,1) 0%, rgba(23,30,54,1) 100%);
+    border-radius: 10px;
+}
