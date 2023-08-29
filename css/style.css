@@ -292,6 +292,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
     
 }
 .cards2>.sub-cards6
@@ -326,9 +327,10 @@
 }
 .cards2>.sub-cards6>.cpart2>.content1>.sub-content1
 {
-    background: url(../assets/images/squadgallery-1.jpg);
+    background: url(../assets/images/gallery1.jpg);
     height: 100%;
     width:25%;
+    background-size: cover;
     /* border:1px solid red; */
 }
 .cards2>.sub-cards6>.cpart2>.content1>.sub-content1:hover
@@ -337,17 +339,19 @@
 }
 .cards2>.sub-cards6>.cpart2>.content1>.sub-content2
 {
-    background: url(../assets/images/squadgallery-2.jpg);
+    background: url(../assets/images/gallery3.jpg);
     height: 100%;
     width:25%;
+    background-size: cover;
     /* border:1px solid red; */
     transform: scale(1.1);
 }
 
 .cards2>.sub-cards6>.cpart2>.content1>.sub-content3
 {
-    background: url(../assets/images/squadgallery-3.jpg);
+    background: url(../assets/images/gallery4.jpg);
     height: 100%;
+    background-size: cover;
     width:25%;
     /* border:1px solid red; */
 }
@@ -357,7 +361,8 @@
 }
 .cards2>.sub-cards6>.cpart2>.content1>.sub-content4
 {
-    background: url(../assets/images/squadgallery-4.jpg);
+    background: url(../assets/images/gallery2.jpg);
+    background-size: cover;
     height: 100%;
     width:25%;
     /* border:1px solid red; */
@@ -408,7 +413,7 @@
 .container1>.schedule>.match>.team1
 {
     width: 33.33%;
-    height: 140px;
+    height: 110px;
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
@@ -448,7 +453,7 @@
 .container1>.schedule>.match>.team2
 {
     width: 33.33%;
-    height: 140px;
+    height: 110px;
     /* border: 1px solid red; */
 }
 .container1>.schedule>.match>.team2>p{
@@ -469,7 +474,7 @@
 .container1>.schedule>.match>.team3
 {
     width: 33.33%;
-    height: 140px;
+    height: 110px;
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
@@ -616,7 +621,16 @@
     height: 279.59px;
     /* border: 1px solid white; */
 }
-
+.cards3>.sub-cards7>.player-card2>.top-card>.card-flex1>.pimg>img
+{
+    width: 286.19px;
+    height: 279.59px;
+}
+.cards3>.sub-cards7>.player-card2>.top-card>.card-flex2>.pimg>img
+{
+    width: 286.19px;
+    height: 279.59px;
+}
 .cards3>.sub-cards7>.player-card2>.top-card>.card-flex2
 {
     width: 540px;
@@ -856,14 +870,15 @@
 }
 .cards4>.sub-cards9>.caro>.sub-caro>.main-caro>.gflex>.ground2>img
 {
-    width: 350px;
-    height: 527px;
+    margin-top: 80px;
+    width: 430px;
+    height: 427px;
 } 
 .cards4>.sub-cards9>.caro>.sub-caro>.main-caro>.gflex>.ground2>.slide
 {
     margin-left: -100px;
-    width: 500px;
-    height: 540px;
+    width: 480px;
+    height: 440px;
 }
 
 
